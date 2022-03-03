@@ -6,6 +6,7 @@ main{
     
     .jumbotron{
         /* background-image: url('../../../public/images/jumbotron.jpg'); */
+        background-color: red;
         background-size: cover;
         background-repeat: no-repeat;
         height: 500px;
@@ -44,4 +45,15 @@ main{
         margin: 0px auto;
         display: block;
     }
+}
+
+.box{
+    width: calc(90% / 6);
+    margin-bottom: 100px;
+}
+
+h3{
+    width: 100%;
+    font-size: 20px;
+    margin-top: 10px;
 }

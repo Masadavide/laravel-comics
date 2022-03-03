@@ -5,6 +5,7 @@
             Current series
         </a>
         <div class="container2_main">
+            @yield('main-content')
             {{-- <fumetto 
             v-for="(element, index) in comics" :key="index"
             :thumb="element.thumb"
