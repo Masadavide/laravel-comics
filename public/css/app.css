@@ -36,7 +36,7 @@ main {
 }
 
 main .jumbotron {
-  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  /* background-image: url('../../../public/images/jumbotron.jpg'); */
   background-size: cover;
   background-repeat: no-repeat;
   height: 500px;
@@ -109,7 +109,7 @@ footer .submenu .container_footer .link .link-title {
 }
 
 .main-footer {
-  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  /* background-image:  url('../../../public/images/footer-bg.jpg'); */
   background-size: cover;
   height: 370px;
 }
@@ -171,6 +171,8 @@ footer .submenu .container_footer .link .link-title {
   margin: 0 10px;
   color: #0283f8;
 }
+
+/* @import 'partials/_comic'; */
 
 * {
   margin: 0;
