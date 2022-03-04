@@ -5,7 +5,7 @@ main{
     font-weight: bold;
     
     .jumbotron{
-        /* background-image: url('../../../public/images/jumbotron.jpg'); */
+        background-image: url('../images/jumbotron.jpg');
         background-color: red;
         background-size: cover;
         background-repeat: no-repeat;
@@ -50,6 +50,7 @@ main{
 .box{
     width: calc(90% / 6);
     margin-bottom: 100px;
+    height: 291px;
 }
 
 h3{
